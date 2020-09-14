@@ -1,0 +1,120 @@
+html * {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html button {
+  cursor: pointer;
+}
+
+body {
+  padding: 0 15px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #3b3832;
+  background-color: #fbf0d9;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+
+body a {
+  color: #3b3832;
+}
+
+body a:hover {
+  opacity: 0.8;
+}
+
+body .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  min-height: 100vh;
+}
+
+body .intro h1 {
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  body .intro h1 {
+    font-size: 2.4rem;
+  }
+}
+
+body .work {
+  height: 100%;
+  min-height: 100vh;
+  padding: 20px 0;
+  position: relative;
+}
+
+body .work h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+  body .work h3 {
+    font-size: 2.4rem;
+  }
+}
+
+body .work section {
+  margin-bottom: 75px;
+}
+
+body .work section ul li {
+  list-style: none;
+}
+
+body .work section .project-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  body .work section .project-name {
+    font-size: 1.4rem;
+  }
+}
+
+body .work section .project-role {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  body .work section .project-role {
+    font-size: 1rem;
+  }
+}
+
+body .work .about ul li:nth-child(2) {
+  text-decoration: line-through;
+}
+
+body .work .about ul li:nth-child(3) {
+  text-decoration: line-through;
+}
+
+body .work footer .fa-linkedin {
+  color: #3b3832;
+}
+
+body .work footer .fa-github-square {
+  color: #3b3832;
+}
+/*# sourceMappingURL=styles.css.map */

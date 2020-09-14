@@ -1,0 +1,75 @@
+html {
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+body {
+  padding: 0 15px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #3b3832;
+  background-color: #fbf0d9;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 1.4rem;
+  }
+
+  a {
+    color: #3b3832;
+    margin-right: 10px;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  h2 {
+    margin-top: 20px;
+  }
+
+  .fa-arrow-left {
+    padding-top: 20px;
+    color: #3b3832;
+  }
+
+  .project-role {
+    margin-bottom: 10px;
+  }
+
+  .project-description {
+    margin-bottom: 15px;
+  }
+
+  .links {
+    margin-bottom: 15px;
+
+    a {
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .screenshots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .screenshot {
+      width: 90vw;
+      margin-bottom: 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
