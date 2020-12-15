@@ -110,6 +110,10 @@ body .work .about ul li:nth-child(3) {
   text-decoration: line-through;
 }
 
+body .work .about ul li:nth-child(4) {
+  text-decoration: line-through;
+}
+
 body .work footer .fa-linkedin {
   color: #3b3832;
 }
